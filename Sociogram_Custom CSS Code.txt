@@ -1,0 +1,65 @@
+#saveme,#ellipse,#draw,#label,#undo{
+width: 100px;
+padding: 5px;
+text-align: center;
+background: blue;
+color: white;
+border: 2px solid black;
+-webkit-border-radius: 4px 4px 4px 4px;
+border-radius: 4px 4px 4px 4px;        
+}
+ 
+#saveme:hover,#ellipse:hover,#draw:hover,#label:hover,#undo:hover{
+cursor: pointer;
+background: red;
+}          
+ 
+#options,
+#main{
+float: left;
+height: 820px;
+}
+ 
+#options{
+width: 100%;
+}
+ 
+#timeWarning{
+color: red;
+font-weight: bold;
+text-align: center;
+}
+ 
+#draw_options,
+#undo{
+float: left;
+}
+ 
+#undo{
+background: #888;
+}
+ 
+#saveme{
+float: right;
+}
+ 
+ 
+#main{
+position: relative;
+}
+ 
+#options div{
+display: inline;
+margin-right: 10px;
+}
+ 
+body .PageTimer{
+padding: 0px 10px 0px !important;
+float: right;
+}
+ 
+canvas {position:absolute;left:0;top:50px; border: 1px solid black}
+#canvas {background:#eef}
+ 
+.Skin .SkinInner {min-width: 1000px!important;}
+.body {font-family: Verdana;}

@@ -1,0 +1,17 @@
+<div id="main">
+ <canvas id="undocanvas" width="700px" height="600px"></canvas>
+ <canvas id="mycanvas" width="700px" height="600px"></canvas>
+ <canvas tabindex=0 id="tempcanvas" width="700px" height="600px"></canvas>
+</div>
+<div id="timeWarning" style="display:none;">${e://Field/time_out_text}</div>
+<div id="options">
+ <div id="draw_options">
+    <input id="ellipseopt" type="radio" name="drawopt" value="ellipse" checked> ${e://Field/ellipse_text}
+    <input id="lineopt" type="radio" name="drawopt" value="line"> ${e://Field/line_text}
+ </div>
+  <div id="undo">${e://Field/undo_text}</div> 
+ <div id="saveme">${e://Field/save_text}</div> 
+</div>
+<div id="dialog-one" title="Help">
+${e://Field/helptext}
+</div>
