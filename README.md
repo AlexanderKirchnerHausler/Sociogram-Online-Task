@@ -4,7 +4,7 @@ This is the github documentation page for the online implementation of the Socio
 
 **Online Implementation developed by:**
 
-John Allen, University of Kent (j.a.allen@kent.ac.uk)
+John Allen, University of Kent (j.a.allen@kent.ac.uk)  
 Frank Gasking, University of Kent (f.gasking@kent.ac.uk)
 
 
