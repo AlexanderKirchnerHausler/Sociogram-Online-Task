@@ -11,5 +11,5 @@ Frank Gasking, University of Kent (f.gasking@kent.ac.uk)
 
 * Find an open-source question mark to replace the externally linked on in the instructions
 * Create a minimal, reproducible qualtrics export with the main bits for people to import
-* Fix the non-working buttons
+* ~~Fix the non-working buttons~~
 
