@@ -19,7 +19,16 @@ background: red;
 float: left;
 height: 820px;
 }
- 
+
+#ellipseopt, #lineopt{
+    position: relative;
+    left: auto !important; 
+    opacity: 1 !important;
+    z-index: 1000 !important;
+    height: auto !important;
+    width: auto !important;
+}
+
 #options{
 width: 100%;
 }
@@ -60,6 +69,3 @@ float: right;
  
 canvas {position:absolute;left:0;top:50px; border: 1px solid black}
 #canvas {background:#eef}
- 
-.Skin .SkinInner {min-width: 1000px!important;}
-.body {font-family: Verdana;}
